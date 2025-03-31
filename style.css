@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(125, 153, 0);
+    color:rgb(0, 0, 0);
+} 
+.myInput {
+    outline: none;
+    font-size: 2em;
+    border: 1px solid #4C048C;
+    letter-spacing: 0.5em;
+    text-align: center;
+}
+.gameArea {
+    text-align: center;
+    margin: auto;
+}
+.output{
+        outline: none;
+    font-size: 2em;
+    border: 1px solid #4C048C;
+    letter-spacing: 0.5em;
+    text-align: center;
+    text-align: center;
+}
+
+.button-morado {
+    background-color: #6A0DAD;/*fondo*/ 
+    color: white; /* Texto */
+    border: none; /* Eliminar borde predeterminado */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 2em; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambiar el cursor a mano al pasar el mouse */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+    margin-right: 20px; 
+  }
+
+.purplebotton2{
+    background-color: #6A0DAD;/*fondo*/ 
+    color: white; /* Texto */
+    border: none; /* Eliminar borde predeterminado */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 2em; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambiar el cursor a mano al pasar el mouse */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+    margin-right: 20px; 
+}
+
+
+.clicbot{
+    background-color: #6A0DAD;/*fondo*/ 
+    color: white; /* Texto */
+    border: none; /* Eliminar borde predeterminado */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 2em; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambiar el cursor a mano al pasar el mouse */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+    margin-right: 20px; 
+}
+.button-moradoc {
+    
+    justify-content: center;
+    background-color: #6A0DAD;/*fondo*/ 
+    color: white; /* Texto */
+    border: none; /* Eliminar borde predeterminado */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 2em; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambiar el cursor a mano al pasar el mouse */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+    margin-right: 20px; 
+
+    
+  }
+
