@@ -125,7 +125,7 @@ sorter(word) {
       }
     } else {
       button.style.backgroundColor = "red"; // Cambiar color a rojo si es incorrecta
-      palmezc.textContent = "Perdiste. Intenta de nuevo.";
+      palmezc.textContent = "Perdiste.Intenta de nuevo.";
       clearInterval(this.game.tiempo);// Aquí es donde se detiene el temporizador
       const button3 = document.createElement("button");// Creamos el boton de siguiente
       button3.textContent = "Repetir.";//contenido del boton
