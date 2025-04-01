@@ -36,6 +36,7 @@ btn1.addEventListener("click", async function () {
 
 
  btn2.addEventListener("click", async function () {
+    
     btn1.style.display = "none";
     btn2.style.display = "none";
     try {

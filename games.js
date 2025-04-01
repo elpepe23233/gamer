@@ -74,12 +74,14 @@ const funciones = new Funciones(myWords, gameArea, output, scoreBoard, inWord, b
 const button3 = document.createElement("button"); // Creamos el boton de volver a jugar
 button3.textContent= "Volver a jugar."; //contenido del boton
 gameArea.appendChild(button3);
+button3.style.marginTop = "10px"; // Establecer el margen superior de 10px
 button3.style.display="none";
 button3.classList.add("button-morado"); // Aplicamos la clase de CS
 
 button3.style.cursor = "pointer"; // Cambia el cursor cuando está sobre el botón
 const button4 = document.createElement("button"); // Creamos el boton de volver a jugar
 button4.textContent= "Volver a la pantalla de inicio."; //contenido del boton
+button4.style.marginTop = "10px"; // Establecer el margen superior de 10px
 gameArea.appendChild(button4);
 button4.style.display="none";
 button4.classList.add("purplebotton2");
