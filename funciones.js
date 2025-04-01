@@ -124,6 +124,8 @@ sorter(word) {
         button2.addEventListener("click", () => btn.click());//funcion del contenedor
       }
     } else {
+
+      
       button.style.backgroundColor = "red"; // Cambiar color a rojo si es incorrecta
       palmezc.textContent = "Perdiste.Intenta de nuevo.";
       clearInterval(this.game.tiempo);// Aquí es donde se detiene el temporizador
